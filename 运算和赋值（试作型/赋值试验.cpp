@@ -11,7 +11,7 @@ main()
 	cout<< "The var is ";
 	cin>> y;
 	/*So you can set any var you want but now you can only set just one var in a time, which is really useless*/
-	/*What I want to do now is to connect x with y so that I can give a number to x, and meanwhile I can set y as its name*/
+	/*What I want to do now is to connect x with y so that I can give a value to x, and meanwhile I can set y as its name*/
        	cout<< "var = " << y << endl;
 	cout<< "Press 2 to give " << y << " a value ";
 	cin>> z;
