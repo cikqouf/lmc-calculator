@@ -9,7 +9,7 @@ main()
 {
 	string z;
 	cout<< "the expression is "; cin>> z;
-	regex p ("(\\+)"); //Ò»¸öÇ³ÂªµÄË¼Â·£¬¿Ï¶¨»áÓĞĞÔÄÜËğÊ§
+	regex p ("(\\+)"); //ä¸€ä¸ªæµ…é™‹çš„æ€è·¯ï¼Œè‚¯å®šä¼šå¾ˆæ£˜æ‰‹
 	if (regex_search(z,p))
 	{
 		cout<< " + ";
