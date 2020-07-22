@@ -2,7 +2,6 @@
 #include<iomanip>
 #include<string>
 #include<cmath>
-#include<string>
 #include<regex>
 using namespace std;
 main()
