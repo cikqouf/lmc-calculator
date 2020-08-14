@@ -1,5 +1,6 @@
 # LMC
-### ~~LMC is short for LaTex Mathematical Calculator~~
+### ~~LMC is short for LaTex Mathematical Calculator~~  
+#### ~~甚至不能计算 1 +1 = 2~~
 + 已实现的：
 1. string Ep的输入输出  
 2. 能够退出输入  
