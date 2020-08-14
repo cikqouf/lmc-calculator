@@ -2,21 +2,18 @@
 #include<string>
 using namespace std;
 string Ep;
-char p;
+double result;
+char multi = '*';
+char plu = '+';
+char minu = '-';
+char divi = '/';
+char invo = '^';
 int n = 0;
-int i =1;
-
-class computing
-{
-    public:
-
-        char plus = '+';
-        char minus = '-';
-        char multiply = '*';
-};
+int i = 1;
 
 void console()
 {
+    char p;
     cout<< "quit? "; cin>> p;
             switch (p)
             {
@@ -31,12 +28,54 @@ void console()
             }
 }
 
+double numtable[];
+
+    double multiply()
+    {
+        int m;
+        
+        return result;
+    }
+
+    double plus()
+    {
+        int m;
+        return result;
+    }
+
+    double minus()
+    {
+        int m;
+        return result;
+    }
+    double division()
+    {
+        int m;
+        return result;
+    }
+    double involution()
+    {
+        int m;
+        return result;
+    }
+
+void Expression()
+{
+    cout<< "[In" << i << "]>>> " ; cin>> Ep;
+    cout<< "[Out" << i << "]<<< " << Ep <<endl;
+}
+
+void computing()
+{
+    //正则表达式,准备支持多项式计算（数值）
+}
+
 void inout()
 {
     for(int i =1; n < i; i++)
         {
-            cout<< "[In" << i << "]>>> " ; cin>> Ep;
-            cout<< "[Out" << i << "]<<< " << Ep <<endl;
+            Expression();
+            computing();
             console();
         }
 }
