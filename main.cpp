@@ -3,11 +3,6 @@
 using namespace std;
 string Ep;
 double result;
-char multi = '*';
-char plu = '+';
-char minu = '-';
-char divi = '/';
-char invo = '^';
 int n = 0;
 int i = 1;
 
@@ -33,7 +28,6 @@ double numtable[];
     double multiply()
     {
         int m;
-        
         return result;
     }
 
