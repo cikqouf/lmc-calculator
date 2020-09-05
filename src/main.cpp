@@ -32,7 +32,7 @@ double numtable[10];
         return result;
     }
 
-    double plus()
+    double addition()
     {
         int m;
         return result;
