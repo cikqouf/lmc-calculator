@@ -6,6 +6,8 @@
 
 3. stb_image 和 stb_truetype: 用于字体贴图生成
 
+4. slang 编译器.
+
 ps: 字体文件自备...
 
 具体效果
