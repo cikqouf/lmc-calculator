@@ -217,7 +217,7 @@ namespace EngineBase {
 	) {
 		auto memProps = phyDevice.getMemoryProperties();
 		for (uint32_t idx = 0; idx < memProps.memoryTypeCount; ++idx) {
-			if (memProps.memoryTypes[idx].propertyFlags & cond) {
+			if ((memProps.memoryTypes[idx].propertyFlags & cond) == cond) {
 				return idx;
 			}
 		}
